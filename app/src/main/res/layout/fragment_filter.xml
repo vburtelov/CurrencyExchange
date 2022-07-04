@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.filter.FilterFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/decor1_dp">
+
+        <TextView
+            android:id="@+id/all_time"
+            android:layout_width="@dimen/default_dp"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginHorizontal="@dimen/decor3_dp"
+            android:layout_marginVertical="@dimen/decor3_dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/radius_btn"
+            android:elevation="@dimen/shadow_dp"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/decor2_dp"
+            android:text="@string/all_time"
+            android:textAllCaps="true"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/title2_sp"
+            app:layout_constraintEnd_toStartOf="@id/week"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/week"
+            android:layout_width="@dimen/default_dp"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginHorizontal="@dimen/decor3_dp"
+            android:layout_marginVertical="@dimen/decor3_dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/radius_btn"
+            android:elevation="@dimen/shadow_dp"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/decor2_dp"
+            android:text="@string/week"
+            android:textAllCaps="true"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/title2_sp"
+            app:layout_constraintEnd_toStartOf="@id/month"
+            app:layout_constraintStart_toEndOf="@id/all_time"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="@dimen/default_dp"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginHorizontal="@dimen/decor3_dp"
+            android:layout_marginVertical="@dimen/decor3_dp"
+            android:background="@drawable/radius_btn"
+            android:elevation="@dimen/shadow_dp"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/decor2_dp"
+            android:text="@string/month"
+            android:textAllCaps="true"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/title2_sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/week"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/apply_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/decor1_dp"
+            android:paddingVertical="@dimen/decor3_dp"
+            android:text="@string/apply_btn"
+            android:background="@drawable/radius_btn"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/title3_sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/segment" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/segment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/decor2_dp"
+            android:layout_marginVertical="@dimen/decor3_dp"
+            android:background="@drawable/radius_btn"
+            android:elevation="@dimen/shadow_dp"
+            android:paddingHorizontal="@dimen/decor2_dp"
+            android:paddingVertical="@dimen/decor3_dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/week">
+
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/on_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:buttonTint="@color/white"
+                android:text="@string/on"
+                android:textColor="@color/text_main"
+                android:textSize="@dimen/title1_sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/start_date_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="@dimen/default_dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/decor1_dp"
+                android:hint="@string/date_example"
+                android:textColorHint="@color/text_main"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/white"
+                app:errorEnabled="true"
+                app:errorIconDrawable="@drawable/ic_error"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/on_filter"
+                app:startIconDrawable="@drawable/ic_date"
+                app:startIconTint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/start_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:inputType="date"
+                    android:maxLength="10"
+                    android:textColor="@color/text_main"
+                    android:textColorHint="@color/text_main"
+                    android:textSize="@dimen/title2_sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/finish_date_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="@dimen/default_dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/decor1_dp"
+                android:hint="@string/date_example"
+                android:textColorHint="@color/text_main"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/white"
+                app:errorEnabled="true"
+                app:errorIconDrawable="@drawable/ic_error"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/start_date_layout"
+                app:startIconDrawable="@drawable/ic_date"
+                app:startIconTint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/finish_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:inputType="date"
+                    android:maxLength="10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title2_sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <CalendarView
+                android:id="@+id/calendar_start"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/calendar_height"
+                android:background="@color/primary_variant"
+                android:dateTextAppearance="@style/CalenderViewDateCustomText"
+                android:theme="@style/CalenderViewCustom"
+                android:weekDayTextAppearance="@style/CalenderViewWeekCustomText"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/start_date_layout" />
+
+            <CalendarView
+                android:id="@+id/calendar_finish"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/calendar_height"
+                android:background="@color/primary_variant"
+                android:dateTextAppearance="@style/CalenderViewDateCustomText"
+                android:theme="@style/CalenderViewCustom"
+                android:weekDayTextAppearance="@style/CalenderViewWeekCustomText"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/finish_date_layout" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

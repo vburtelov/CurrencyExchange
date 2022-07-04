@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/decor2_dp"
+        android:layout_marginBottom="@dimen/decor2_dp"
+        android:background="@drawable/radius_btn"
+        android:elevation="@dimen/shadow_dp"
+        android:paddingHorizontal="@dimen/decor2_dp"
+        android:paddingVertical="@dimen/decor3_dp">
+
+        <TextView
+            android:id="@+id/history_date_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/title2_sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/history_currency_start"
+            android:layout_width="@dimen/width_name_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/decor3_dp"
+            android:gravity="center"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/title3_sp"
+            app:layout_constraintEnd_toEndOf="@id/history_start_price"
+            app:layout_constraintStart_toStartOf="@id/history_start_price"
+            app:layout_constraintTop_toBottomOf="@id/history_date_exchange" />
+
+        <TextView
+            android:id="@+id/history_start_price"
+            android:layout_width="@dimen/width_rate_dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/title2_sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/history_currency_start" />
+
+        <ImageView
+            android:id="@+id/history_exchange_ico"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/decor3_dp"
+            android:contentDescription="@string/exchange"
+            android:rotation="90"
+            android:src="@drawable/ic_flip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/history_finish_price"
+            app:layout_constraintStart_toEndOf="@id/history_start_price"
+            app:layout_constraintTop_toBottomOf="@id/history_date_exchange"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/history_currency_finish"
+            android:layout_width="@dimen/width_name_dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/decor3_dp"
+            android:gravity="center"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/title3_sp"
+            app:layout_constraintEnd_toEndOf="@id/history_finish_price"
+            app:layout_constraintStart_toStartOf="@id/history_finish_price"
+            app:layout_constraintTop_toBottomOf="@id/history_date_exchange" />
+
+        <TextView
+            android:id="@+id/history_finish_price"
+            android:layout_width="@dimen/width_rate_dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/decor3_dp"
+            android:gravity="center"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/title2_sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/history_currency_finish" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

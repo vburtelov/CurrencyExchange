@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/decor2_dp"
+    android:layout_marginVertical="@dimen/decor3_dp"
+    android:background="@drawable/radius_btn"
+    android:elevation="@dimen/shadow_dp"
+    android:paddingHorizontal="@dimen/decor2_dp"
+    android:paddingVertical="@dimen/decor3_dp">
+
+
+    <TextView
+        android:id="@+id/currency_name"
+        android:layout_width="@dimen/width_name_dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_main"
+        android:textSize="@dimen/title2_sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/currency_value"
+        app:layout_constraintHorizontal_bias=".3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/currency_value"
+        android:layout_width="@dimen/width_rate_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/decor3_dp"
+        android:textColor="@color/text_main"
+        android:textSize="@dimen/title2_sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/currency_liked"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/currency_liked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary"
+        android:clickable="true"
+        android:focusable="true"
+        app:borderWidth="@dimen/default_dp"
+        app:elevation="@dimen/default_dp"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxImageSize="@dimen/size_img"
+        app:rippleColor="@color/primary_variant"
+        app:srcCompat="@drawable/ic_heart"
+        app:tint="@color/primary_variant"
+        android:contentDescription="@string/currency_liked" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/currency"
+        android:icon="@drawable/ic_currency"
+        android:title="@string/currency" />
+    <item
+        android:id="@+id/graphic"
+        android:icon="@drawable/ic_chart"
+        android:title="@string/graph"/>
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_currency_history"
+        android:title="@string/history"/>
+</menu>

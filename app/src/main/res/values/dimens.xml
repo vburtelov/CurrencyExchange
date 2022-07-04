@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_dp">0dp</dimen>
+    <dimen name="width_rate_dp">140dp</dimen>
+    <dimen name="width_ico_dp">80dp</dimen>
+    <dimen name="width_name_dp">50dp</dimen>
+    <dimen name="decor1_dp">20dp</dimen>
+    <dimen name="decor2_dp">15dp</dimen>
+    <dimen name="decor3_dp">10dp</dimen>
+    <dimen name="shadow_dp">5dp</dimen>
+    <dimen name="size_img">30dp</dimen>
+    <dimen name="title1_sp">25sp</dimen>
+    <dimen name="title2_sp">20sp</dimen>
+    <dimen name="title3_sp">15sp</dimen>
+    <dimen name="calendar_height">300dp</dimen>
+    <dimen name="btn_height">70dp</dimen>
+</resources>

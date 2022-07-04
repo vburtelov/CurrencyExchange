@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Currency Exchange</string>
+    <string name="filter">Фильтр</string>
+    <string name="all_time">Все</string>
+    <string name="week">Неделя</string>
+    <string name="month">Месяц</string>
+    <string name="apply_btn">Применить</string>
+    <string name="period">Период</string>
+    <string name="on">Указать свои даты</string>
+    <string name="date_example">YYYY-MM-DD</string>
+    <string name="history">История</string>
+    <string name="graph">График</string>
+    <string name="exchange">Обменять</string>
+    <string name="base_name">EUR</string>
+    <string name="currency">Курсы</string>
+    <string name="currency_code">CODE</string>
+    <string name="currency_liked">Лайк</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable-v24/ic_heart_filled.xml" value="0.1165" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.108" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_all.xml" value="0.136" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_base_star.xml" value="0.1" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_currency.xml" value="0.1165" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_error.xml" value="0.136" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_exchange.xml" value="0.2135" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_filter.xml" value="0.136" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_graphic.xml" value="0.1415" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_heart.xml" value="0.1165" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_history.xml" value="0.1415" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_home.xml" value="0.108" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1165" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_month.xml" value="0.136" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_period.xml" value="0.136" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_star_rate.xml" value="0.1" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/ic_week.xml" value="0.136" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/radius_btn.xml" value="0.1415" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/drawable/shadow_style.xml" value="0.108" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/fragment_currency.xml" value="0.10989583333333333" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/fragment_currency_date.xml" value="0.1762917933130699" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/fragment_currency_item.xml" value="0.1" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/fragment_detail.xml" value="0.18" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/fragment_filter.xml" value="0.33" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/fragment_graph.xml" value="0.1308876811594203" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/fragment_history.xml" value="0.1308876811594203" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/fragment_history_item.xml" value="0.1308876811594203" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/fragment_vault.xml" value="0.1" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/layout/fragment_vault_item.xml" value="0.2" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/menu/bottom_nav_menu_filter.xml" value="0.18541666666666667" />
+        <entry key="..\:/Education/6sem/Android/CurrencyExchange/app/src/main/res/menu/menu.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/drawable/ic_base_star.xml" value="0.1755" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/drawable/ic_exchange.xml" value="0.121" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/drawable/ic_test.xml" value="0.144" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/drawable/shadow_style.xml" value="0.1855" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/layout-v28/fragment_detail.xml" value="0.25" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/layout/fragment_detail.xml" value="0.264" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/layout/fragment_graph.xml" value="0.152" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/layout/fragment_history.xml" value="0.1" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/layout/fragment_history_item.xml" value="0.264" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/layout/fragment_vault.xml" value="0.1" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test/app/src/main/res/layout/fragment_vault_item.xml" value="0.4" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test2/app/src/main/res/drawable/radius_btn.xml" value="0.1405" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test2/app/src/main/res/drawable/shadow_style.xml" value="0.1405" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test2/app/src/main/res/layout/fragment_graph.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test2/app/src/main/res/layout/fragment_history.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test2/app/src/main/res/layout/fragment_vault.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test2/app/src/main/res/layout/fragment_vault_item.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/StoneCookie/Desktop/itogovoe/test2/app/src/main/res/menu/menu.xml" value="0.24635416666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
